@@ -12,4 +12,4 @@ var ageIsValid = false;
 ageIsValid = Number.isInteger(currentAge);
 var randomNumber = Math.random(1000000001, 1000000019);
 var randomInteger = Math.floor(randomNumber);
-var randomUserID = Number.round(randomInteger, 10);
+var randomUserID = Number.random(randomInteger, 10);
